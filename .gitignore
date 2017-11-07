@@ -1,3 +1,8 @@
+# Manual
+*.out
+*.txt
+*.txt.bak
+
 # Logs
 logs
 *.log

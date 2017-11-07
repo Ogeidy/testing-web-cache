@@ -7,6 +7,7 @@ module.exports = function(app, path) {
 		// const filePath = path + req.params.name;
 		
 		res.send(crypto.randomBytes(Math.trunc(Math.random() * 31000 + 1000)));
+		console.log('Sent:', req.params.name);
 		
 		// if (!fs.existsSync(filePath)) {
 			// var wstream = fs.createWriteStream(filePath);
